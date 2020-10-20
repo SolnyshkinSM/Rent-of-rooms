@@ -7,27 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AFBDC4A1AD9EED63249CD29 /* Pods_Rent_of_rooms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4279B0231FD6A3E367104739 /* Pods_Rent_of_rooms.framework */; };
+		C30C54EC2536D7F100F79980 /* Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C30C54EB2536D7F100F79980 /* Manual.pdf */; };
+		C33912D8252F34BF00F05C46 /* PaymentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912D7252F34BF00F05C46 /* PaymentTableViewController.swift */; };
+		C33912DA252F34D100F05C46 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912D9252F34D100F05C46 /* PaymentTableViewCell.swift */; };
+		C33912DC252F34EB00F05C46 /* PaymentAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912DB252F34EB00F05C46 /* PaymentAddTableViewController.swift */; };
+		C34B950325345A5200198BCF /* TemplateCoreDataTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B950225345A5200198BCF /* TemplateCoreDataTVC.swift */; };
+		C351284325271FCC00BCE317 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351284225271FCC00BCE317 /* StartViewController.swift */; };
+		C351284625273D3300BCE317 /* ClientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351284525273D3300BCE317 /* ClientTableViewController.swift */; };
 		C355F98F252705860025BB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355F98E252705860025BB54 /* AppDelegate.swift */; };
 		C355F992252705860025BB54 /* Rent_of_rooms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C355F990252705860025BB54 /* Rent_of_rooms.xcdatamodeld */; };
 		C355F994252705860025BB54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355F993252705860025BB54 /* SceneDelegate.swift */; };
-		C355F996252705860025BB54 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355F995252705860025BB54 /* MasterViewController.swift */; };
-		C355F998252705860025BB54 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355F997252705860025BB54 /* DetailViewController.swift */; };
 		C355F99B252705860025BB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C355F999252705860025BB54 /* Main.storyboard */; };
 		C355F99D252705870025BB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C355F99C252705870025BB54 /* Assets.xcassets */; };
 		C355F9A0252705870025BB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C355F99E252705870025BB54 /* LaunchScreen.storyboard */; };
+		C355F9AC252706580025BB54 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355F9AB252706580025BB54 /* Date.swift */; };
+		C35AC7182537472900D8CFB5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C35AC7162537472900D8CFB5 /* Localizable.strings */; };
+		C36458A3252C3006002EB3A4 /* ClientMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36458A2252C3006002EB3A4 /* ClientMapViewController.swift */; };
+		C36458A5252C58C9002EB3A4 /* ClientRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36458A4252C58C9002EB3A4 /* ClientRateViewController.swift */; };
+		C36458A7252C62F5002EB3A4 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36458A6252C62F5002EB3A4 /* ClientTableViewCell.swift */; };
+		C36458AA252C7BA2002EB3A4 /* RoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36458A9252C7BA2002EB3A4 /* RoomTableViewController.swift */; };
+		C36458D1252C860B002EB3A4 /* RoomAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36458D0252C860B002EB3A4 /* RoomAddViewController.swift */; };
+		C39C0869252B0B1900F8D504 /* ClientAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C0868252B0B1900F8D504 /* ClientAddTableViewController.swift */; };
+		C39C086C252B584800F8D504 /* ClientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C086B252B584800F8D504 /* ClientDetailViewController.swift */; };
+		C39C086E252B60B300F8D504 /* ClientDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C086D252B60B300F8D504 /* ClientDetailTableViewCell.swift */; };
+		C3BAD5A52536EA76008B6F20 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAD5A42536EA76008B6F20 /* TabBarViewController.swift */; };
+		C3BAD5A82536EAEA008B6F20 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAD5A72536EAEA008B6F20 /* PageViewController.swift */; };
+		C3BAD5AA2536EBA6008B6F20 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAD5A92536EBA6008B6F20 /* ContentViewController.swift */; };
+		C3C3842C2530417500D146BB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3842B2530417500D146BB /* MainTableViewController.swift */; };
+		C3C3842F25304F5800D146BB /* DiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3842E25304F5800D146BB /* DiagramViewController.swift */; };
+		C3C944D62531BDD100232B2C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C944D52531BDD100232B2C /* WebViewController.swift */; };
+		C3E427B02531A26F00CA9C39 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E427AF2531A26F00CA9C39 /* AppGroup.swift */; };
+		C3E427B32531ABA700CA9C39 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E427B22531ABA700CA9C39 /* DelegateViewController.swift */; };
+		C3E427B72531AC2400CA9C39 /* ManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E427B62531AC2400CA9C39 /* ManagedObjectContext.swift */; };
+		C3E427BA2531AD2E00CA9C39 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E427B92531AD2E00CA9C39 /* NetworkDataFetcher.swift */; };
+		C3E427BC2531AE2C00CA9C39 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E427BB2531AE2C00CA9C39 /* NetworkService.swift */; };
+		C3F2407A252755ED0031EA81 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F24079252755ED0031EA81 /* CatalogTableViewController.swift */; };
+		C3F72EF0252DD34B005420EA /* ContractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F72EEF252DD34B005420EA /* ContractTableViewController.swift */; };
+		C3F72EF2252DD371005420EA /* ContractTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F72EF1252DD371005420EA /* ContractTableViewCell.swift */; };
+		C3F72EF4252DE62D005420EA /* ContactAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F72EF3252DE62D005420EA /* ContactAddTableViewController.swift */; };
+		C3F90F332536189700597E6E /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F90F322536189700597E6E /* MoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283F52F42C56F0E424B5C820 /* Pods-Rent of rooms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent of rooms.release.xcconfig"; path = "Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms.release.xcconfig"; sourceTree = "<group>"; };
+		290D90E13283DFD073EA6AAA /* Pods-Rent of rooms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent of rooms.debug.xcconfig"; path = "Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms.debug.xcconfig"; sourceTree = "<group>"; };
+		4279B0231FD6A3E367104739 /* Pods_Rent_of_rooms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_of_rooms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30C54EB2536D7F100F79980 /* Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Manual.pdf; sourceTree = "<group>"; };
+		C33912D7252F34BF00F05C46 /* PaymentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewController.swift; sourceTree = "<group>"; };
+		C33912D9252F34D100F05C46 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		C33912DB252F34EB00F05C46 /* PaymentAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddTableViewController.swift; sourceTree = "<group>"; };
+		C34B950225345A5200198BCF /* TemplateCoreDataTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCoreDataTVC.swift; sourceTree = "<group>"; };
+		C351284225271FCC00BCE317 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C351284525273D3300BCE317 /* ClientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableViewController.swift; sourceTree = "<group>"; };
 		C355F98B252705860025BB54 /* Rent of rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent of rooms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C355F98E252705860025BB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C355F991252705860025BB54 /* Rent_of_rooms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rent_of_rooms.xcdatamodel; sourceTree = "<group>"; };
 		C355F993252705860025BB54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C355F995252705860025BB54 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		C355F997252705860025BB54 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C355F99A252705860025BB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C355F99C252705870025BB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C355F99F252705870025BB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C355F9A1252705870025BB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C355F9AB252706580025BB54 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		C35AC7142537469000D8CFB5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		C35AC7172537472900D8CFB5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "Rent of rooms/Storyboard/ru.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		C36458A2252C3006002EB3A4 /* ClientMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMapViewController.swift; sourceTree = "<group>"; };
+		C36458A4252C58C9002EB3A4 /* ClientRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRateViewController.swift; sourceTree = "<group>"; };
+		C36458A6252C62F5002EB3A4 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
+		C36458A9252C7BA2002EB3A4 /* RoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewController.swift; sourceTree = "<group>"; };
+		C36458D0252C860B002EB3A4 /* RoomAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAddViewController.swift; sourceTree = "<group>"; };
+		C39C0868252B0B1900F8D504 /* ClientAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAddTableViewController.swift; sourceTree = "<group>"; };
+		C39C086B252B584800F8D504 /* ClientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailViewController.swift; sourceTree = "<group>"; };
+		C39C086D252B60B300F8D504 /* ClientDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C3BAD5A42536EA76008B6F20 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C3BAD5A72536EAEA008B6F20 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C3BAD5A92536EBA6008B6F20 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		C3C3842B2530417500D146BB /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		C3C3842E25304F5800D146BB /* DiagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramViewController.swift; sourceTree = "<group>"; };
+		C3C944D52531BDD100232B2C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C3E427AF2531A26F00CA9C39 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		C3E427B22531ABA700CA9C39 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		C3E427B62531AC2400CA9C39 /* ManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectContext.swift; sourceTree = "<group>"; };
+		C3E427B92531AD2E00CA9C39 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		C3E427BB2531AE2C00CA9C39 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C3F24079252755ED0031EA81 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
+		C3F72EEF252DD34B005420EA /* ContractTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractTableViewController.swift; sourceTree = "<group>"; };
+		C3F72EF1252DD371005420EA /* ContractTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractTableViewCell.swift; sourceTree = "<group>"; };
+		C3F72EF3252DE62D005420EA /* ContactAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAddTableViewController.swift; sourceTree = "<group>"; };
+		C3F90F322536189700597E6E /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +102,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFBDC4A1AD9EED63249CD29 /* Pods_Rent_of_rooms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1702683E1E2BCB0BDF75E728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4279B0231FD6A3E367104739 /* Pods_Rent_of_rooms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30C54E82536D6EC00F79980 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				C30C54EB2536D7F100F79980 /* Manual.pdf */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		C33912D6252F348C00F05C46 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				C33912D7252F34BF00F05C46 /* PaymentTableViewController.swift */,
+				C33912D9252F34D100F05C46 /* PaymentTableViewCell.swift */,
+				C33912DB252F34EB00F05C46 /* PaymentAddTableViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		C34B94FF253459E500198BCF /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				C34B950225345A5200198BCF /* TemplateCoreDataTVC.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		C351284425273CF100BCE317 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				C351284525273D3300BCE317 /* ClientTableViewController.swift */,
+				C36458A6252C62F5002EB3A4 /* ClientTableViewCell.swift */,
+				C39C0868252B0B1900F8D504 /* ClientAddTableViewController.swift */,
+				C39C086B252B584800F8D504 /* ClientDetailViewController.swift */,
+				C39C086D252B60B300F8D504 /* ClientDetailTableViewCell.swift */,
+				C36458A2252C3006002EB3A4 /* ClientMapViewController.swift */,
+				C36458A4252C58C9002EB3A4 /* ClientRateViewController.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		C355F982252705860025BB54 = {
 			isa = PBXGroup;
 			children = (
 				C355F98D252705860025BB54 /* Rent of rooms */,
 				C355F98C252705860025BB54 /* Products */,
+				D4E60BC979E0887EBA1E502E /* Pods */,
+				1702683E1E2BCB0BDF75E728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +178,194 @@
 		C355F98D252705860025BB54 /* Rent of rooms */ = {
 			isa = PBXGroup;
 			children = (
-				C355F98E252705860025BB54 /* AppDelegate.swift */,
-				C355F993252705860025BB54 /* SceneDelegate.swift */,
-				C355F995252705860025BB54 /* MasterViewController.swift */,
-				C355F997252705860025BB54 /* DetailViewController.swift */,
-				C355F999252705860025BB54 /* Main.storyboard */,
+				C35AC715253746FB00D8CFB5 /* Localizables */,
+				C355F9A7252705D50025BB54 /* Storyboard */,
+				C355F9A8252705E50025BB54 /* App */,
+				C34B94FF253459E500198BCF /* Template */,
+				C3BAD5A32536EA4F008B6F20 /* TabBarController */,
+				C3BAD5A62536EAD0008B6F20 /* Page */,
+				C3C3842A2530412C00D146BB /* Start */,
+				C3C384292530411200D146BB /* Main */,
+				C3C3842D25304F3600D146BB /* Diagram */,
+				C3F24078252755D60031EA81 /* Catalog */,
+				C351284425273CF100BCE317 /* Client */,
+				C36458A8252C7B01002EB3A4 /* Room */,
+				C3F72EEE252DD328005420EA /* Contract */,
+				C33912D6252F348C00F05C46 /* Payment */,
+				C3C944D42531BDB000232B2C /* WebView */,
+				C3F90F312536187D00597E6E /* More */,
+				C3E427B12531AB4200CA9C39 /* Services */,
 				C355F99C252705870025BB54 /* Assets.xcassets */,
-				C355F99E252705870025BB54 /* LaunchScreen.storyboard */,
 				C355F9A1252705870025BB54 /* Info.plist */,
-				C355F990252705860025BB54 /* Rent_of_rooms.xcdatamodeld */,
 			);
 			path = "Rent of rooms";
+			sourceTree = "<group>";
+		};
+		C355F9A7252705D50025BB54 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C355F999252705860025BB54 /* Main.storyboard */,
+				C355F99E252705870025BB54 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C355F9A8252705E50025BB54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C355F98E252705860025BB54 /* AppDelegate.swift */,
+				C355F993252705860025BB54 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C355F9A9252705F40025BB54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3E427AF2531A26F00CA9C39 /* AppGroup.swift */,
+				C355F990252705860025BB54 /* Rent_of_rooms.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C355F9AA252706430025BB54 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C355F9AB252706580025BB54 /* Date.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C35AC715253746FB00D8CFB5 /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				C35AC7162537472900D8CFB5 /* Localizable.strings */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+		C36458A8252C7B01002EB3A4 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				C36458A9252C7BA2002EB3A4 /* RoomTableViewController.swift */,
+				C36458D0252C860B002EB3A4 /* RoomAddViewController.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		C3BAD5A32536EA4F008B6F20 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C3BAD5A42536EA76008B6F20 /* TabBarViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		C3BAD5A62536EAD0008B6F20 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				C3BAD5A72536EAEA008B6F20 /* PageViewController.swift */,
+				C3BAD5A92536EBA6008B6F20 /* ContentViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		C3C384292530411200D146BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3842B2530417500D146BB /* MainTableViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C3C3842A2530412C00D146BB /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				C351284225271FCC00BCE317 /* StartViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		C3C3842D25304F3600D146BB /* Diagram */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3842E25304F5800D146BB /* DiagramViewController.swift */,
+			);
+			path = Diagram;
+			sourceTree = "<group>";
+		};
+		C3C3843025306B5C00D146BB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C3E427B22531ABA700CA9C39 /* DelegateViewController.swift */,
+				C3E427B62531AC2400CA9C39 /* ManagedObjectContext.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C3C944D42531BDB000232B2C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				C3C944D52531BDD100232B2C /* WebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		C3E427B12531AB4200CA9C39 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C3E427B82531AD0A00CA9C39 /* Network */,
+				C3C3843025306B5C00D146BB /* Protocols */,
+				C355F9A9252705F40025BB54 /* Models */,
+				C355F9AA252706430025BB54 /* Helper */,
+				C30C54E82536D6EC00F79980 /* File */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C3E427B82531AD0A00CA9C39 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C3E427BB2531AE2C00CA9C39 /* NetworkService.swift */,
+				C3E427B92531AD2E00CA9C39 /* NetworkDataFetcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C3F24078252755D60031EA81 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				C3F24079252755ED0031EA81 /* CatalogTableViewController.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		C3F72EEE252DD328005420EA /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				C3F72EEF252DD34B005420EA /* ContractTableViewController.swift */,
+				C3F72EF1252DD371005420EA /* ContractTableViewCell.swift */,
+				C3F72EF3252DE62D005420EA /* ContactAddTableViewController.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		C3F90F312536187D00597E6E /* More */ = {
+			isa = PBXGroup;
+			children = (
+				C3F90F322536189700597E6E /* MoreTableViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		D4E60BC979E0887EBA1E502E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				290D90E13283DFD073EA6AAA /* Pods-Rent of rooms.debug.xcconfig */,
+				283F52F42C56F0E424B5C820 /* Pods-Rent of rooms.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C355F9A4252705870025BB54 /* Build configuration list for PBXNativeTarget "Rent of rooms" */;
 			buildPhases = (
+				4820FCFE1E0922FD50F8F0F1 /* [CP] Check Pods Manifest.lock */,
 				C355F987252705860025BB54 /* Sources */,
 				C355F988252705860025BB54 /* Frameworks */,
 				C355F989252705860025BB54 /* Resources */,
+				1CD07B56F0C6FBD9810592FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,6 +412,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = C355F982252705860025BB54;
 			productRefGroup = C355F98C252705860025BB54 /* Products */;
@@ -131,6 +429,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35AC7182537472900D8CFB5 /* Localizable.strings in Resources */,
+				C30C54EC2536D7F100F79980 /* Manual.pdf in Resources */,
 				C355F9A0252705870025BB54 /* LaunchScreen.storyboard in Resources */,
 				C355F99D252705870025BB54 /* Assets.xcassets in Resources */,
 				C355F99B252705860025BB54 /* Main.storyboard in Resources */,
@@ -139,16 +439,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CD07B56F0C6FBD9810592FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4820FCFE1E0922FD50F8F0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent of rooms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C355F987252705860025BB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C355F996252705860025BB54 /* MasterViewController.swift in Sources */,
+				C3BAD5A52536EA76008B6F20 /* TabBarViewController.swift in Sources */,
+				C3E427B32531ABA700CA9C39 /* DelegateViewController.swift in Sources */,
+				C3BAD5AA2536EBA6008B6F20 /* ContentViewController.swift in Sources */,
+				C3C3842C2530417500D146BB /* MainTableViewController.swift in Sources */,
+				C351284625273D3300BCE317 /* ClientTableViewController.swift in Sources */,
+				C33912DC252F34EB00F05C46 /* PaymentAddTableViewController.swift in Sources */,
+				C351284325271FCC00BCE317 /* StartViewController.swift in Sources */,
+				C3C3842F25304F5800D146BB /* DiagramViewController.swift in Sources */,
+				C3E427BC2531AE2C00CA9C39 /* NetworkService.swift in Sources */,
+				C36458A5252C58C9002EB3A4 /* ClientRateViewController.swift in Sources */,
+				C3F72EF0252DD34B005420EA /* ContractTableViewController.swift in Sources */,
+				C33912D8252F34BF00F05C46 /* PaymentTableViewController.swift in Sources */,
+				C355F9AC252706580025BB54 /* Date.swift in Sources */,
 				C355F992252705860025BB54 /* Rent_of_rooms.xcdatamodeld in Sources */,
-				C355F998252705860025BB54 /* DetailViewController.swift in Sources */,
+				C3F72EF2252DD371005420EA /* ContractTableViewCell.swift in Sources */,
+				C39C086C252B584800F8D504 /* ClientDetailViewController.swift in Sources */,
+				C3F90F332536189700597E6E /* MoreTableViewController.swift in Sources */,
+				C36458D1252C860B002EB3A4 /* RoomAddViewController.swift in Sources */,
+				C33912DA252F34D100F05C46 /* PaymentTableViewCell.swift in Sources */,
+				C34B950325345A5200198BCF /* TemplateCoreDataTVC.swift in Sources */,
+				C3E427BA2531AD2E00CA9C39 /* NetworkDataFetcher.swift in Sources */,
+				C3E427B02531A26F00CA9C39 /* AppGroup.swift in Sources */,
+				C36458A7252C62F5002EB3A4 /* ClientTableViewCell.swift in Sources */,
+				C39C0869252B0B1900F8D504 /* ClientAddTableViewController.swift in Sources */,
+				C3C944D62531BDD100232B2C /* WebViewController.swift in Sources */,
+				C3BAD5A82536EAEA008B6F20 /* PageViewController.swift in Sources */,
+				C36458AA252C7BA2002EB3A4 /* RoomTableViewController.swift in Sources */,
+				C3F72EF4252DE62D005420EA /* ContactAddTableViewController.swift in Sources */,
+				C3F2407A252755ED0031EA81 /* CatalogTableViewController.swift in Sources */,
 				C355F98F252705860025BB54 /* AppDelegate.swift in Sources */,
+				C36458A3252C3006002EB3A4 /* ClientMapViewController.swift in Sources */,
 				C355F994252705860025BB54 /* SceneDelegate.swift in Sources */,
+				C3E427B72531AC2400CA9C39 /* ManagedObjectContext.swift in Sources */,
+				C39C086E252B60B300F8D504 /* ClientDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +530,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C355F99A252705860025BB54 /* Base */,
+				C35AC7142537469000D8CFB5 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +543,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C35AC7162537472900D8CFB5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35AC7172537472900D8CFB5 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -178,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -238,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -290,6 +672,7 @@
 		};
 		C355F9A5252705870025BB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290D90E13283DFD073EA6AAA /* Pods-Rent of rooms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,12 +685,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.administrator.Rent-of-rooms";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C355F9A6252705870025BB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283F52F42C56F0E424B5C820 /* Pods-Rent of rooms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,7 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.administrator.Rent-of-rooms";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

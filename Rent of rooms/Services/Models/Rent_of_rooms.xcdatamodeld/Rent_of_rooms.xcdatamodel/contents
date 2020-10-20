@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Catalog" representedClassName="Catalog" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Client" representedClassName="Client" parentEntity="Catalog" syncable="YES" codeGenerationType="class">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="mail" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="contract" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contract" inverseName="client" inverseEntity="Contract"/>
+        <relationship name="payment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="client" inverseEntity="Payment"/>
+    </entity>
+    <entity name="Contract" representedClassName="Contract" parentEntity="Catalog" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="timeRent" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="contract" inverseEntity="Client"/>
+        <relationship name="payment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="contract" inverseEntity="Payment"/>
+        <relationship name="room" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Room" inverseName="contracts" inverseEntity="Room"/>
+    </entity>
+    <entity name="Payment" representedClassName="Payment" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sum" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="payment" inverseEntity="Client"/>
+        <relationship name="contract" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Contract" inverseName="payment" inverseEntity="Contract"/>
+    </entity>
+    <entity name="Room" representedClassName="Room" parentEntity="Catalog" syncable="YES" codeGenerationType="class">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="area" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="free" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="contracts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contract" inverseName="room" inverseEntity="Contract"/>
+    </entity>
+    <elements>
+        <element name="Catalog" positionX="684.05078125" positionY="-310.53515625" width="128" height="58"/>
+        <element name="Client" positionX="907.3046875" positionY="-167.69140625" width="128" height="148"/>
+        <element name="Contract" positionX="690.62109375" positionY="-161.5390625" width="128" height="178"/>
+        <element name="Payment" positionX="1208.54296875" positionY="-101.390625" width="128" height="118"/>
+        <element name="Room" positionX="464.2734375" positionY="-161.578125" width="128" height="118"/>
+    </elements>
+</model>

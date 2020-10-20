@@ -1,0 +1,255 @@
+
+/* Class = "UILabel"; text = "Time rent"; ObjectID = "0Oz-7V-ZOR"; */
+"0Oz-7V-ZOR.text" = "Время аренды";
+
+/* Class = "UITabBarItem"; title = "Main"; ObjectID = "0pi-l2-MRs"; */
+"0pi-l2-MRs.title" = "Главная";
+
+/* Class = "UILabel"; text = "Contract"; ObjectID = "1Lj-KU-Lls"; */
+"1Lj-KU-Lls.text" = "Договор";
+
+/* Class = "UISegmentedControl"; 2km-cQ-fQh.segmentTitles[0] = "Year"; ObjectID = "2km-cQ-fQh"; */
+"2km-cQ-fQh.segmentTitles[0]" = "Год";
+
+/* Class = "UISegmentedControl"; 2km-cQ-fQh.segmentTitles[1] = "Month"; ObjectID = "2km-cQ-fQh"; */
+"2km-cQ-fQh.segmentTitles[1]" = "Месяц";
+
+/* Class = "UILabel"; text = "Adress"; ObjectID = "3w3-ev-78m"; */
+"3w3-ev-78m.text" = "Адрес";
+
+/* Class = "UINavigationItem"; title = "Diagram"; ObjectID = "42I-dv-48G"; */
+"42I-dv-48G.title" = "Диаграмма";
+
+/* Class = "UITabBarItem"; title = "Catalog"; ObjectID = "4dw-8J-XF9"; */
+"4dw-8J-XF9.title" = "Справочники";
+
+/* Class = "UILabel"; text = "Contract"; ObjectID = "534-em-Pcj"; */
+"534-em-Pcj.text" = "Договор";
+
+/* Class = "UISegmentedControl"; 5Dy-zc-dGw.segmentTitles[0] = "Cash"; ObjectID = "5Dy-zc-dGw"; */
+"5Dy-zc-dGw.segmentTitles[0]" = "Наличные";
+
+/* Class = "UISegmentedControl"; 5Dy-zc-dGw.segmentTitles[1] = "Cashless"; ObjectID = "5Dy-zc-dGw"; */
+"5Dy-zc-dGw.segmentTitles[1]" = "Безналичные";
+
+/* Class = "UILabel"; text = "Adress"; ObjectID = "5Lr-wU-e2c"; */
+"5Lr-wU-e2c.text" = "Адрес";
+
+/* Class = "UINavigationItem"; title = "More"; ObjectID = "7Tn-Hq-4e0"; */
+"7Tn-Hq-4e0.title" = "Еще";
+
+/* Class = "UILabel"; text = "Price ($ at M²)"; ObjectID = "8vR-4U-aEN"; */
+"8vR-4U-aEN.text" = "Стоимость (₽ за M²)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9L8-sU-7eL"; */
+"9L8-sU-7eL.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Debt client"; ObjectID = "B0n-F6-4ID"; */
+"B0n-F6-4ID.text" = "Долги";
+
+/* Class = "UILabel"; text = "Client"; ObjectID = "BAj-ax-tWn"; */
+"BAj-ax-tWn.text" = "Клиент";
+
+/* Class = "UILabel"; text = "Client"; ObjectID = "BEr-4G-swa"; */
+"BEr-4G-swa.text" = "Клиент";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "CJG-OI-mZW"; */
+"CJG-OI-mZW.normalTitle" = "Сохранить";
+
+/* Class = "UISegmentedControl"; CQj-4M-WO9.segmentTitles[0] = "All"; ObjectID = "CQj-4M-WO9"; */
+"CQj-4M-WO9.segmentTitles[0]" = "Все";
+
+/* Class = "UISegmentedControl"; CQj-4M-WO9.segmentTitles[1] = "Active"; ObjectID = "CQj-4M-WO9"; */
+"CQj-4M-WO9.segmentTitles[1]" = "Активные";
+
+/* Class = "UILabel"; text = "Room"; ObjectID = "DD8-dF-eZr"; */
+"DD8-dF-eZr.text" = "Помещение";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "DHA-CN-bOH"; */
+"DHA-CN-bOH.text" = "Сумма";
+
+/* Class = "UILabel"; text = "SolnyshkinSM@gmail.com"; ObjectID = "ED9-3x-gKc"; */
+"ED9-3x-gKc.text" = "SolnyshkinSM@gmail.com";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "EWN-3N-vOn"; */
+"EWN-3N-vOn.text" = "Сумма";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "EcY-zt-Zxz"; */
+"EcY-zt-Zxz.text" = "Дата";
+
+/* Class = "UILabel"; text = "from"; ObjectID = "EsF-aR-LPv"; */
+"EsF-aR-LPv.text" = "от";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "FcE-hK-ZP1"; */
+"FcE-hK-ZP1.title" = "Главная";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "G5Q-po-5WY"; */
+"G5Q-po-5WY.normalTitle" = "Закрыть";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "GOy-2x-X1C"; */
+"GOy-2x-X1C.title" = "Пункт";
+
+/* Class = "UILabel"; text = "Key"; ObjectID = "Gjw-Ap-lDT"; */
+"Gjw-Ap-lDT.text" = "КЛюч";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "HVa-bq-Jxu"; */
+"HVa-bq-Jxu.text" = "Платежи";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "Iai-tn-SXJ"; */
+"Iai-tn-SXJ.text" = "Количество";
+
+/* Class = "UITableViewSection"; headerTitle = "Money"; ObjectID = "IuP-gd-Yla"; */
+"IuP-gd-Yla.headerTitle" = "Деньги";
+
+/* Class = "UINavigationItem"; title = "Payment"; ObjectID = "JMA-I6-4M8"; */
+"JMA-I6-4M8.title" = "Платеж";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "K4I-kC-riM"; */
+"K4I-kC-riM.text" = "Тип";
+
+/* Class = "UITabBarItem"; title = "Clients"; ObjectID = "L5R-m1-52z"; */
+"L5R-m1-52z.title" = "Клиенты";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "LvO-iA-V6U"; */
+"LvO-iA-V6U.text" = "Имя";
+
+/* Class = "UILabel"; text = "Contracts"; ObjectID = "MDL-au-wWc"; */
+"MDL-au-wWc.text" = "Договора";
+
+/* Class = "UILabel"; text = "Date period"; ObjectID = "Mor-qK-yp0"; */
+"Mor-qK-yp0.text" = "Период";
+
+/* Class = "UINavigationItem"; title = "Catalog"; ObjectID = "Mwl-Li-3qB"; */
+"Mwl-Li-3qB.title" = "Справочники";
+
+/* Class = "UILabel"; text = "Free room"; ObjectID = "Q2d-Mf-0su"; */
+"Q2d-Mf-0su.text" = "Свободные";
+
+/* Class = "UITableViewSection"; headerTitle = "The main"; ObjectID = "Raj-AU-RZY"; */
+"Raj-AU-RZY.headerTitle" = "Главный";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Spc-ZH-bV2"; */
+"Spc-ZH-bV2.text" = "Дата";
+
+/* Class = "UILabel"; text = "Mail"; ObjectID = "UVf-iG-tiK"; */
+"UVf-iG-tiK.text" = "Почта";
+
+/* Class = "UINavigationItem"; title = "Payments"; ObjectID = "WPC-Nn-7Y2"; */
+"WPC-Nn-7Y2.title" = "Платежи";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "WcZ-F4-NbU"; */
+"WcZ-F4-NbU.text" = "Значение";
+
+/* Class = "UILabel"; text = "Client"; ObjectID = "Wgb-a4-9Tl"; */
+"Wgb-a4-9Tl.text" = "Клиент";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XXN-56-PQx"; */
+"XXN-56-PQx.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Room"; ObjectID = "Ygv-SV-oY8"; */
+"Ygv-SV-oY8.text" = "Помещение";
+
+/* Class = "UILabel"; text = "Adress"; ObjectID = "YqV-ib-2oC"; */
+"YqV-ib-2oC.text" = "Адрес";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Zir-c7-iQE"; */
+"Zir-c7-iQE.text" = "Дата";
+
+/* Class = "UILabel"; text = "Rooms"; ObjectID = "ZqR-W1-o7B"; */
+"ZqR-W1-o7B.text" = "Помещения";
+
+/* Class = "UITableViewSection"; headerTitle = "Favorites music"; ObjectID = "a1W-K2-29B"; */
+"a1W-K2-29B.headerTitle" = "Любимая музыка";
+
+/* Class = "UILabel"; text = "Please rate"; ObjectID = "aIK-qv-g1m"; */
+"aIK-qv-g1m.text" = "Пожалуйста оцените";
+
+/* Class = "UINavigationItem"; title = "Client"; ObjectID = "b1E-e1-qYH"; */
+"b1E-e1-qYH.title" = "Клиент";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bhy-Mf-OIs"; */
+"bhy-Mf-OIs.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "bqh-pO-lSU"; */
+"bqh-pO-lSU.text" = "Телефон";
+
+/* Class = "UILabel"; text = "PC"; ObjectID = "dY2-Sn-sKb"; */
+"dY2-Sn-sKb.text" = "шт";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "dn6-jh-oLg"; */
+"dn6-jh-oLg.text" = "Текст";
+
+/* Class = "UITableViewSection"; headerTitle = "Additional"; ObjectID = "dsC-E2-AXO"; */
+"dsC-E2-AXO.headerTitle" = "Дополнительные";
+
+/* Class = "UINavigationItem"; title = "Clients"; ObjectID = "f72-Ch-ffd"; */
+"f72-Ch-ffd.title" = "Клиенты";
+
+/* Class = "UILabel"; text = "№"; ObjectID = "fqU-fi-dTi"; */
+"fqU-fi-dTi.text" = "№";
+
+/* Class = "UILabel"; text = "Manual"; ObjectID = "gjb-KY-I6C"; */
+"gjb-KY-I6C.text" = "Инструкция";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hGf-gW-VDi"; */
+"hGf-gW-VDi.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "hXg-BR-aTa"; */
+"hXg-BR-aTa.text" = "Подробности";
+
+/* Class = "UINavigationItem"; title = "Rooms"; ObjectID = "j2P-CU-zAm"; */
+"j2P-CU-zAm.title" = "Помещения";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "j9o-te-P9U"; */
+"j9o-te-P9U.normalTitle" = "Сохранить";
+
+/* Class = "UILabel"; text = "Number"; ObjectID = "jJ9-az-GSw"; */
+"jJ9-az-GSw.text" = "Номер";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "kAY-D0-4fA"; */
+"kAY-D0-4fA.text" = "₽";
+
+/* Class = "UILabel"; text = "Area (M²)"; ObjectID = "kKz-rE-Tzl"; */
+"kKz-rE-Tzl.text" = "Площадь (M²)";
+
+/* Class = "UITabBarItem"; title = "Payments"; ObjectID = "lWN-8s-OUf"; */
+"lWN-8s-OUf.title" = "Платежи";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "mp3-gS-hFL"; */
+"mp3-gS-hFL.text" = "Сумма";
+
+/* Class = "UILabel"; text = "Clients"; ObjectID = "nFM-SO-b06"; */
+"nFM-SO-b06.text" = "Клиенты";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "qIh-M5-oPv"; */
+"qIh-M5-oPv.text" = "Название";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "rvt-78-sdX"; */
+"rvt-78-sdX.text" = "Телефон";
+
+/* Class = "UILabel"; text = "Client"; ObjectID = "tp5-az-aTU"; */
+"tp5-az-aTU.text" = "Клиент";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "tyF-e5-scw"; */
+"tyF-e5-scw.title" = "Пункт";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "v8U-06-Xgp"; */
+"v8U-06-Xgp.text" = "Сумма";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "wHh-3z-yfj"; */
+"wHh-3z-yfj.text" = "₽";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "wbM-hc-TDO"; */
+"wbM-hc-TDO.text" = "Имя";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wkf-tY-AZ8"; */
+"wkf-tY-AZ8.normalTitle" = "Закрыть";
+
+/* Class = "UINavigationItem"; title = "Contract"; ObjectID = "xZq-Rg-gdf"; */
+"xZq-Rg-gdf.title" = "Договор";
+
+/* Class = "UINavigationItem"; title = "Contracts"; ObjectID = "xcX-QL-EqQ"; */
+"xcX-QL-EqQ.title" = "Договоры";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "zcd-dO-92U"; */
+"zcd-dO-92U.text" = "Имя";
