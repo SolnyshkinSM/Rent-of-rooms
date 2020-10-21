@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UINavigationBar.appearance().tintColor = .black
         
-        if let barFont = UIFont(name: "ChalkboardSE-Light", size: 28) {
+        if let barFont = UIFont(name: "ChalkboardSE-Light", size: 29) {
             UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black,
                 NSAttributedString.Key.font: barFont]
         } else {
