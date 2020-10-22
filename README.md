@@ -2,6 +2,8 @@
 
 Efficient automation of all accounting processes for leases, contracts and payments.
 
+Аренда помещений.
+
 Эффективная автоматизация всех процессов учета договоров аренды, договоров и платежей.
 
 ![alt text](Start.png "Стартовый экран")

@@ -50,7 +50,7 @@ class CatalogTableViewController: UITableViewController, ManagedObjectContext {
         
         present(getAlertController(title: identifier, message: message), animated: true, completion: nil)
     }
-
+    
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
