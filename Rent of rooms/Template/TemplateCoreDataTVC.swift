@@ -32,6 +32,12 @@ class TemplateCoreDataTVC: UITableViewController, ManagedObjectContext, NSFetche
     func configureCell(_ cell: UITableViewCell, withObject object: AnyObject) {      
     }
     
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let headerView = view as? UITableViewHeaderFooterView {
+            headerView.textLabel?.textColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        }
+    }    
+    
     // MARK: - Fetched results controller
     
     func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
