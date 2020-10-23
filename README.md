@@ -27,6 +27,7 @@ Used:
 •	Autolayout
 •	MVC
 •	Interface Builder
+•      Storyboard/Xib
 •	JSON
 •	Localizable
 •	MFMailComposeViewController

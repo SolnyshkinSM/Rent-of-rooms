@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2AFBDC4A1AD9EED63249CD29 /* Pods_Rent_of_rooms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4279B0231FD6A3E367104739 /* Pods_Rent_of_rooms.framework */; };
 		C30C54EC2536D7F100F79980 /* Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C30C54EB2536D7F100F79980 /* Manual.pdf */; };
+		C31225952542E7F1002CBE5C /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31225932542E7F1002CBE5C /* RoomTableViewCell.swift */; };
+		C31225962542E7F1002CBE5C /* RoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31225942542E7F1002CBE5C /* RoomTableViewCell.xib */; };
 		C33912D8252F34BF00F05C46 /* PaymentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912D7252F34BF00F05C46 /* PaymentTableViewController.swift */; };
 		C33912DA252F34D100F05C46 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912D9252F34D100F05C46 /* PaymentTableViewCell.swift */; };
 		C33912DC252F34EB00F05C46 /* PaymentAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33912DB252F34EB00F05C46 /* PaymentAddTableViewController.swift */; };
@@ -54,6 +56,8 @@
 		290D90E13283DFD073EA6AAA /* Pods-Rent of rooms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent of rooms.debug.xcconfig"; path = "Target Support Files/Pods-Rent of rooms/Pods-Rent of rooms.debug.xcconfig"; sourceTree = "<group>"; };
 		4279B0231FD6A3E367104739 /* Pods_Rent_of_rooms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_of_rooms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30C54EB2536D7F100F79980 /* Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Manual.pdf; sourceTree = "<group>"; };
+		C31225932542E7F1002CBE5C /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		C31225942542E7F1002CBE5C /* RoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomTableViewCell.xib; sourceTree = "<group>"; };
 		C33912D7252F34BF00F05C46 /* PaymentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewController.swift; sourceTree = "<group>"; };
 		C33912D9252F34D100F05C46 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
 		C33912DB252F34EB00F05C46 /* PaymentAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddTableViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,15 @@
 				C30C54EB2536D7F100F79980 /* Manual.pdf */,
 			);
 			path = File;
+			sourceTree = "<group>";
+		};
+		C31225972542E861002CBE5C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C31225932542E7F1002CBE5C /* RoomTableViewCell.swift */,
+				C31225942542E7F1002CBE5C /* RoomTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C33912D6252F348C00F05C46 /* Payment */ = {
@@ -249,6 +262,7 @@
 			children = (
 				C36458A9252C7BA2002EB3A4 /* RoomTableViewController.swift */,
 				C36458D0252C860B002EB3A4 /* RoomAddViewController.swift */,
+				C31225972542E861002CBE5C /* Cell */,
 			);
 			path = Room;
 			sourceTree = "<group>";
@@ -364,7 +378,6 @@
 				290D90E13283DFD073EA6AAA /* Pods-Rent of rooms.debug.xcconfig */,
 				283F52F42C56F0E424B5C820 /* Pods-Rent of rooms.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -429,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31225962542E7F1002CBE5C /* RoomTableViewCell.xib in Resources */,
 				C35AC7182537472900D8CFB5 /* Localizable.strings in Resources */,
 				C30C54EC2536D7F100F79980 /* Manual.pdf in Resources */,
 				C355F9A0252705870025BB54 /* LaunchScreen.storyboard in Resources */,
@@ -517,6 +531,7 @@
 				C3F2407A252755ED0031EA81 /* CatalogTableViewController.swift in Sources */,
 				C355F98F252705860025BB54 /* AppDelegate.swift in Sources */,
 				C36458A3252C3006002EB3A4 /* ClientMapViewController.swift in Sources */,
+				C31225952542E7F1002CBE5C /* RoomTableViewCell.swift in Sources */,
 				C355F994252705860025BB54 /* SceneDelegate.swift in Sources */,
 				C3E427B72531AC2400CA9C39 /* ManagedObjectContext.swift in Sources */,
 				C39C086E252B60B300F8D504 /* ClientDetailTableViewCell.swift in Sources */,
