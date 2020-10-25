@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class RoomTableViewCell: UITableViewCell {
 
     @IBOutlet var imageViewRoom: UIImageView!
@@ -21,5 +22,4 @@ class RoomTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    
 }
