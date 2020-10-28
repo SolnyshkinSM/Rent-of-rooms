@@ -14,6 +14,8 @@ class PaymentAddTableViewController: UITableViewController, DelegateViewControll
     var contract: Contract?
     var client: Client?
     
+    @IBOutlet var saveButton: UIBarButtonItem!
+    
     @IBOutlet var dateField: UITextField!
     @IBOutlet var contractField: UITextField!
     @IBOutlet var clientField: UITextField!
@@ -24,12 +26,15 @@ class PaymentAddTableViewController: UITableViewController, DelegateViewControll
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
+        editingChangedContract()
     }
     
     // MARK: - Methods
     
     func configureView() {
         
+        saveButton.isEnabled = false
+                
         tableView.tableFooterView = UIView(frame: .zero)
         
         dateField.setInputViewDatePicker(target: self, selector: #selector(tapDone))
@@ -67,10 +72,16 @@ class PaymentAddTableViewController: UITableViewController, DelegateViewControll
             client = value.client
             clientField.text = client?.name
             sumField.text = getNumberFormatter().string(from: value.price as NSNumber)
+            editingChangedContract()
         } else if let value = value as? Client {
             client = value
             clientField.text = value.name
         }
+    }
+    
+    @objc
+    func editingChangedContract() {
+        saveButton.isEnabled = contractField.text?.isEmpty == false
     }
     
     // MARK: - Table view data source

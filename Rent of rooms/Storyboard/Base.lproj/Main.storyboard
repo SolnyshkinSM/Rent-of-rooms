@@ -616,6 +616,7 @@
                         <outlet property="areaField" destination="Ypz-d4-sbJ" id="hj2-uM-8h4"/>
                         <outlet property="imageView" destination="xUv-FO-O4P" id="Oor-nU-d0c"/>
                         <outlet property="nameField" destination="lwb-Ez-Ggb" id="1h5-la-Gfr"/>
+                        <outlet property="saveButton" destination="CJG-OI-mZW" id="xv0-Yj-HYv"/>
                         <outletCollection property="collectionField" destination="lwb-Ez-Ggb" collectionClass="NSMutableArray" id="Ate-jl-1XN"/>
                         <outletCollection property="collectionField" destination="eJl-l4-w0z" collectionClass="NSMutableArray" id="vab-40-rak"/>
                         <outletCollection property="collectionField" destination="Ypz-d4-sbJ" collectionClass="NSMutableArray" id="S0C-KE-5ct"/>
@@ -1036,6 +1037,7 @@
                         <outlet property="numberField" destination="nOT-cx-e87" id="zcX-Ix-CPw"/>
                         <outlet property="priceField" destination="QtG-Cb-Zve" id="TmY-cY-QEP"/>
                         <outlet property="roomField" destination="56Y-Ss-JSb" id="aTt-Am-Ksg"/>
+                        <outlet property="saveButton" destination="j9o-te-P9U" id="IHD-9G-ByQ"/>
                         <outlet property="startDateField" destination="FCq-KH-Xgb" id="aIo-YC-Rsd"/>
                         <outlet property="timeRentSegmented" destination="2km-cQ-fQh" id="dvE-y4-Sps"/>
                     </connections>
@@ -1630,6 +1632,7 @@
                         <outlet property="clientField" destination="lnz-37-QNp" id="Vtv-Ox-ygv"/>
                         <outlet property="contractField" destination="3aD-up-5gA" id="irX-dn-9v1"/>
                         <outlet property="dateField" destination="E7K-mF-Zrf" id="DMz-Qu-I6y"/>
+                        <outlet property="saveButton" destination="daB-f9-7ri" id="NAv-LW-iBe"/>
                         <outlet property="sumField" destination="m4V-of-BT2" id="1vj-VK-L3o"/>
                         <outlet property="typeSegmented" destination="5Dy-zc-dGw" id="Z9w-XN-EWP"/>
                     </connections>

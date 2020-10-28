@@ -16,6 +16,8 @@ class ContactAddTableViewController: UITableViewController, DelegateViewControll
     var room: Room?
     var client: Client?
     
+    @IBOutlet var saveButton: UIButton!    
+    
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var numberField: UITextField!
     @IBOutlet var dateField: UITextField!
@@ -30,11 +32,15 @@ class ContactAddTableViewController: UITableViewController, DelegateViewControll
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
+        editingChangedRoom()
     }
     
     // MARK: - Methods
     
     func configureView() {
+        
+        saveButton.isEnabled = false
+        saveButton.backgroundColor = .lightGray
         
         tableView.tableFooterView = UIView(frame: .zero)
                 
@@ -118,9 +124,20 @@ class ContactAddTableViewController: UITableViewController, DelegateViewControll
         if let value = value as? Room {
             room = value
             roomField.text = value.name
+            editingChangedRoom()
         } else if let value = value as? Client {
             client = value
             clientField.text = value.name
+        }
+    }
+    
+    @objc
+    func editingChangedRoom() {
+        saveButton.isEnabled = roomField.text?.isEmpty == false
+        if saveButton.isEnabled {
+            saveButton.backgroundColor = .link
+        } else {
+            saveButton.backgroundColor = .lightGray
         }
     }
     

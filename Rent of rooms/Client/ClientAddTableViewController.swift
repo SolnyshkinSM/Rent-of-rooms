@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 
 class ClientAddTableViewController: UITableViewController {
+    
+    var saveButton: UIBarButtonItem!
         
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var nameField: UITextField!
@@ -31,8 +33,12 @@ class ClientAddTableViewController: UITableViewController {
         
         tableView.tableFooterView = UIView(frame: .zero)
         
-        let saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveNewObject(_:)))
+        saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveNewObject(_:)))
         navigationItem.rightBarButtonItem = saveButton
+        
+        saveButton.isEnabled = false
+        
+        nameField.addTarget(self, action: #selector(editingChangedName), for: .editingChanged)
         
         for textField in collectionField {
             textField.delegate = self
@@ -60,6 +66,11 @@ class ClientAddTableViewController: UITableViewController {
         }
                 
         performSegue(withIdentifier: "unwindToCanselSegue", sender: nil)
+    }
+    
+    @objc
+    func editingChangedName() {
+        saveButton.isEnabled = nameField.text?.isEmpty == false
     }
     
     func chooseImagePickerAction(sourseType: UIImagePickerController.SourceType) {

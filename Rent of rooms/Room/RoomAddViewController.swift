@@ -21,15 +21,23 @@ class RoomAddViewController: UIViewController {
     @IBOutlet var areaField: UITextField!
     @IBOutlet var collectionField: [UITextField]!
     
+    @IBOutlet var saveButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
+        editingChangedName()
     }
     
     // MARK: - Methods
     
     func configureView() {
+        
+        saveButton.isEnabled = false
+        saveButton.backgroundColor = .lightGray
+        
+        nameField.addTarget(self, action: #selector(editingChangedName), for: .editingChanged)
         
         pickerView.dataSource = self
         pickerView.delegate = self
@@ -100,6 +108,16 @@ class RoomAddViewController: UIViewController {
             pickerController.sourceType = sourseType
             pickerController.delegate = self
             present(pickerController, animated: true, completion: nil)
+        }
+    }
+    
+    @objc
+    func editingChangedName() {
+        saveButton.isEnabled = nameField.text?.isEmpty == false
+        if saveButton.isEnabled {
+            saveButton.backgroundColor = .link
+        } else {
+            saveButton.backgroundColor = .lightGray
         }
     }
     
