@@ -78,13 +78,19 @@ class ClientAddTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if indexPath.row == 0 {
-            let alertController = getAlertController(title: NSLocalizedString("Choose action", comment: ""), message: nil)
-                let cameraAction = UIAlertAction(title: NSLocalizedString("Camera", comment: ""), style: .default) { (action) in
-                    self.chooseImagePickerAction(sourseType: .camera)
-                }
-                let libraryAction = UIAlertAction(title: NSLocalizedString("Library", comment: ""), style: .default) { (action) in
-                    self.chooseImagePickerAction(sourseType: .photoLibrary)
-                }
+            let alertController = getAlertController(title: NSLocalizedString("Choose action", comment: ""), message: nil, style: .actionSheet)
+            let cameraAction = UIAlertAction(title: NSLocalizedString("Camera", comment: ""), style: .default) { (action) in
+                self.chooseImagePickerAction(sourseType: .camera)
+            }
+            cameraAction.setValue(UIImage(named: "cameraIcon"), forKey: "image")
+            cameraAction.setValue(CATextLayerAlignmentMode.left, forKey: "titleTextAlignment")
+            
+            let libraryAction = UIAlertAction(title: NSLocalizedString("Library", comment: ""), style: .default) { (action) in
+                self.chooseImagePickerAction(sourseType: .photoLibrary)
+            }
+            libraryAction.setValue(UIImage(named: "photoIcon"), forKey: "image")
+            libraryAction.setValue(CATextLayerAlignmentMode.left, forKey: "titleTextAlignment")
+            
             alertController.addAction(cameraAction)
             alertController.addAction(libraryAction)
             present(alertController, animated: true, completion: nil)

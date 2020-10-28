@@ -30,6 +30,9 @@ extension String {
         let emailTest  = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)
     }
+    
+    // TODO: isPhone
+    // TODO: isAdress
 }
 
 extension UITextField {
@@ -108,9 +111,9 @@ private func animateTable(_ tableView: UITableView, translationX: CGFloat, trans
     }
 }
 
-func getAlertController(title: String?, message: String? = nil) -> UIAlertController {
+func getAlertController(title: String?, message: String? = nil, style: UIAlertController.Style? = nil) -> UIAlertController {
     
-    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    let alert = UIAlertController(title: title, message: message, preferredStyle: style ?? .alert)
     let defaultAction = UIAlertAction(title: NSLocalizedString("Cansel", comment: ""), style: .cancel, handler: nil)
     alert.addAction(defaultAction)
     
