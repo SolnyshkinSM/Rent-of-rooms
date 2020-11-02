@@ -1410,7 +1410,7 @@
                             <outlet property="delegate" destination="NDy-do-FgW" id="dzE-oW-h9J"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Payments" id="WPC-Nn-7Y2">
+                    <navigationItem key="navigationItem" title="Payments" largeTitleDisplayMode="never" id="WPC-Nn-7Y2">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="AyO-VR-dcd">
                             <connections>
                                 <segue destination="t0p-6w-TI8" kind="show" identifier="paymentAddSegue" id="8zO-Qv-nTa"/>
@@ -1621,7 +1621,7 @@
                             <outlet property="delegate" destination="t0p-6w-TI8" id="0sb-eo-BDr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Payment" id="JMA-I6-4M8">
+                    <navigationItem key="navigationItem" title="Payment" largeTitleDisplayMode="always" id="JMA-I6-4M8">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="daB-f9-7ri">
                             <connections>
                                 <action selector="saveActions:" destination="t0p-6w-TI8" id="ftv-oh-NiN"/>
@@ -1646,8 +1646,8 @@
             <objects>
                 <navigationController id="vG5-sb-dhZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Payments" image="dollarsign.square" catalog="system" id="lWN-8s-OUf"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U2p-Ze-tgp">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="U2p-Ze-tgp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
