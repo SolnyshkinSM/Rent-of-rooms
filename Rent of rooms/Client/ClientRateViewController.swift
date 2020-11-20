@@ -23,8 +23,8 @@ class ClientRateViewController: UIViewController {
     // MARK: - Methods
     
     func configureView() {
-        
-        for button in rateCollection {
+
+        rateCollection.forEach { button in
             button.transform = CGAffineTransform(scaleX: 0, y: 0)
         }
         

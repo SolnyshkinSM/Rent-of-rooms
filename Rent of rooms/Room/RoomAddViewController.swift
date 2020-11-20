@@ -56,9 +56,7 @@ class RoomAddViewController: UIViewController {
         
         areaField.inputAccessoryView = toolBar
         
-        for textField in collectionField {
-            textField.delegate = self
-        }
+        collectionField.forEach { $0.delegate = self }
         
         if let room = room {
             nameField.text = room.name

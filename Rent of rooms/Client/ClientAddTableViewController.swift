@@ -40,9 +40,7 @@ class ClientAddTableViewController: UITableViewController {
         
         nameField.addTarget(self, action: #selector(editingChangedName), for: .editingChanged)
         
-        for textField in collectionField {
-            textField.delegate = self
-        }
+        collectionField.forEach { $0.delegate = self }
     }
     
     @objc

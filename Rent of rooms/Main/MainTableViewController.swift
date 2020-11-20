@@ -48,9 +48,9 @@ class MainTableViewController: UITableViewController, ManagedObjectContext {
     func animateTableView() {
         
         let cells = tableView.visibleCells
-        for cell in cells { cell.alpha = 0 }
+        cells.forEach { $0.alpha = 0 }
         UIView.animate(withDuration: 1) {
-            for cell in cells { cell.alpha = 1 }
+            cells.forEach { $0.alpha = 1 }
         }
     }
     
